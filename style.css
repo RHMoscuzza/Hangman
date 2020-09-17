@@ -1,0 +1,51 @@
+body {
+  font-family: "Kufam", cursive;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  background-color: #ddeeff;
+}
+
+.alphabetWrapper {
+  font-family: "Kufam", cursive;
+  display: flex;
+  width: 50%;
+  flex-wrap: wrap;
+}
+.alphabetWrapper .alphabetLetter {
+  font-family: "Kufam", cursive;
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  background-color: transparent;
+  border-radius: 10px;
+  border: 1px solid black;
+  font-weight: bold;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.alphabetWrapper .alphabetLetter:hover {
+  background-color: #b1becc;
+  color: #fff;
+}
+
+.hiddenLetters {
+  text-transform: uppercase;
+  font-family: "Kufam", cursive;
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  background-color: transparent;
+  border-radius: 10px;
+  border: 1px solid black;
+  font-weight: bold;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*# sourceMappingURL=style.css.map */
